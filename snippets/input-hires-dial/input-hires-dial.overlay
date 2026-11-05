@@ -21,7 +21,8 @@
 
         matrix {
             kscan = <&kscan0>;
-            col-offset = <TORABO_TSUKI_LP_MATRIX_COL_OFFSET>;
+            /* 左右のずれは transform の col-offset が足す。ここでも足すと右半分が二重になる。 */
+            col-offset = <0>;
         };
 
         dial-button {

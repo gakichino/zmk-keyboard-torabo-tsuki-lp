@@ -1,4 +1,13 @@
 include:
+  # トラックボールは左（セントラル）、ハイレゾダイヤルは右。コネクタが同じピンを使う。
+  - board: bmp_boost
+    shield: torabo_tsuki_lp_left
+    snippet: studio-rpc-usb-uart split-central input-trackball input-listener
+    artifact-name: torabo_tsuki_lp_left_central_trackball
+  - board: bmp_boost
+    shield: torabo_tsuki_lp_right
+    snippet: studio-rpc-usb-uart input-hires-dial
+    artifact-name: torabo_tsuki_lp_right_peripheral_dial
   - board: bmp_boost
     shield: torabo_tsuki_lp_left
     snippet: "studio-rpc-usb-uart split-central input-trackball input-listener"
