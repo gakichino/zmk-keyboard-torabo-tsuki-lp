@@ -163,7 +163,7 @@
 #if defined(TORABO_TSUKI_LP_KSCAN_4_DIRECTION_SWITCH)
 &none &none &none &none &none
 #elif defined(TORABO_TSUKI_LP_INPUT_HIRES_DIAL)
-&C_MUTE
+&kp C_MUTE
 #endif
             >;
         };
@@ -178,7 +178,7 @@
 #if defined(TORABO_TSUKI_LP_KSCAN_4_DIRECTION_SWITCH)
 &none &none &none &none &none
 #elif defined(TORABO_TSUKI_LP_INPUT_HIRES_DIAL)
-&C_MUTE
+&kp C_MUTE
 #endif
             >;
         };
